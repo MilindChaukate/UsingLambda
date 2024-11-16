@@ -13,3 +13,5 @@ def myfunction2 (n):
     return lambda a : a * n
 mytripler = myfunction2(3)
 print(mytripler(10))
+
+print("Hello")
